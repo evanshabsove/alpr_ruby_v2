@@ -3,6 +3,6 @@ module AlprRuby
     include Virtus.model
 
     attribute :confidence, Float
-    attribute :value, String
+    attribute :name, String
   end
 end

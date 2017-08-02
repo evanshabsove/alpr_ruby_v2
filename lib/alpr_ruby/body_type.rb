@@ -1,5 +1,5 @@
 module AlprRuby
-  class Make
+  class BodyType
     include Virtus.model
 
     attribute :confidence, Float

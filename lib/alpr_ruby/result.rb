@@ -10,7 +10,9 @@ module AlprRuby
     attribute :processing_time_ms, Float
     attribute :candidates, Array[Candidate]
     attribute :coordinates, Array[Coordinate]
+    attribute :vehicle, Vehicle
     attribute :matches_template, Integer
     attribute :requested_topn, Integer
+
   end
 end
